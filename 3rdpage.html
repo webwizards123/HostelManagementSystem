@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link href="style3.css" rel="stylesheet">
+</head>
+<body>
+    <section id="top">
+        <!-- <div> -->
+            <nav class="navbar navbar-expand-md navbar-light justify-content-between">
+    
+                <div class="inst">
+                    <a class="navbar-brand" href="#"><img class="profile" src="iit1.jfif" alt=""></a>
+                    IIT BHU
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto ml-auto">
+                        <li class="nav-item active">
+                            <div class="right">
+                                <a class="nav-link" href="#">Home</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="right">
+                                <a class="nav-link" href="#">Raise Ticket</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="right">
+                                <a class="nav-link" href="#">Notice</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="right">
+                        <a href="www.google.com" ><img src="profile1.jpg" class="profile" alt=""></a>    
+                    </div>
+                </div>
+            </nav>
+        <!-- </div> -->
+    </section>
+    <section id="middle">
+        
+        <form>
+            <div class="mb-3">
+                <label for="exampleName" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+                <label for="exampleStudentId" class="form-label">Student Id</label>
+                <input type="text" class="form-control" id="student_id">
+            </div>
+            <div class="mb-3">
+                <label for="exampleNumber" class="form-label">Contact Number</label>
+                <input type="tel" class="form-control" id="mobile_no">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <br>
+            <div class="mb-3">
+                <label for="HostelName" class="form-label">Hostel Name</label>
+                <input type="text" class="form-control" id="HostelName">
+            </div>
+        
+            <div class="mb-3">
+                <label for="RoomNumber" class="form-label">Room Number</label>
+                <input type="number" class="form-control" id="RoomNumber">
+            </div>
+            <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck2">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <div class="mb-3">
+                <label for="Problem Category">Choose a category for your issue</label>
+                <br><br>
+                <select id="Problem_Category" name="Problem_Category" size="4" multiple>
+                    <option value="Electricity_Issue">Electricity Issue</option>
+                    <option value="Cleanliness_Issue">Cleanliness Issue</option>
+                    <option value="Bathroom_Sanitation">Bathroom Sanitation</option>
+                    <option value="Internet_Issue">Internet Issue</option>
+                    <option value="Laundry_Issue">Laundry Issue</option>
+                    <option value="Food_Related_Issue">Food Related Issue</option>
+                    <option value="Staff_Complaint">Staff Complaint</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <div>
+                <label for="describe"></label>
+
+                <textarea id="describe" name="describe" rows="4" cols="50">Describe your Issue here..............
+                </textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary buttoncenter" >Submit</button>
+            
+        </form>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Bootstrap 5 JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
