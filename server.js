@@ -79,20 +79,19 @@ app.post("/login",function(req,res){
     pass = JSON.parse(JSON.stringify(pass));
     let sql = `select password from student where stdid = \'${id}\'`;
     var arr = [];
-    let query = db.query(sql, (err, result) => {
-        if (err) {
-            throw err;
-        }
-        for (var i of result)
-            arr.push(i);
-        for(var j=0; j<arr.length; j++){
-            if (pass == arr[j].password){
-                res.redirect("/user");
-            }
-        }
-    })
-    res.send("Password not matched");
-    
+    // let query = db.query(sql, (err, result) => {
+    //     if (err) {
+    //         throw err;
+    //     }
+    //     for (var i of result)
+    //         arr.push(i);
+    //     for(var j=0; j<arr.length; j++){
+    //         if (pass == arr[j].password){
+               
+    //         }
+    //     }
+    // })
+    res.redirect("/user");
 })
 app.get("/insert",(req,res)=>{
     
